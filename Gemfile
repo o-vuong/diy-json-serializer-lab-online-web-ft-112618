@@ -40,6 +40,9 @@ group :development, :test do
   gem 'capybara'
   gem 'faker'
   gem 'shoulda'
+  gem 'selenium-webdriver'
+  gem 'chromedriver-helper' 
+  gem 'phantomjs', :require => 'phantomjs/poltergeist'
   gem 'poltergeist', '~> 1.14.0'
 end
 
